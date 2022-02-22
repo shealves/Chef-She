@@ -1,0 +1,198 @@
+/*Estrutura*/
+
+body {
+	font: 12px "cinzel", SANS-SERIF;
+}
+
+#container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+	color: #000080;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FA8072;
+	
+}
+
+/*Logo*/
+
+#logo h1{
+	float: left;
+	font: 25px "Arial Black", SANS-SERIF;
+	color: #de7499;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #D3D3D3;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+#logo {	
+	display: block;
+	margin: 5px;
+	padding-bottom: 3px;
+}
+
+/*Menu Navegação*/
+
+header {
+	background-color: #A2B5CD;
+	width: 1080px;
+	height: 100px;
+	padding: 10px 0;	
+}
+
+nav ul {
+	list-style: none;
+	margin: 5px;
+	float: right;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a:link {
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+
+/*Menu Principal*/
+
+#conteudo {
+	width: 710px;
+	float: left;
+	margin-left: 30px;
+	margin-top: -35px;
+}
+
+aside {
+	width: 340px;
+	float: right;
+	margin-top: -35px;
+}
+
+section#receita {
+	background: #d2e8e0;
+	padding: 5px 5px 7px 7px;
+	margin-top: 6px;
+	width: 87%;
+}
+
+section#galeria {
+	margin-top: 6px;
+	border: 4px solid #d2e8e0;
+	padding: 5px;
+	padding-left: 5px;
+	width: 87%;
+}
+
+section#galeria img{
+	padding: 2px;
+}
+
+section#galeria h4 {
+	margin-left: 15px;
+}
+
+
+/*Conteudo*/
+
+article#post1 {
+	float: left;
+	width: 310px;
+	margin-left: 0;
+	margin-top: 10px;
+}
+
+article#post2 {
+	float: right;
+	width: 310px;
+	margin-right: 38px;
+	margin-top: 10px;
+}
+
+article#post3 {
+	float: left;
+	width: 310px;
+	margin-left: 0;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+article#post4 {
+	float: right;
+	width: 310px;
+	margin-right: 38px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	color: #de7499;
+	text-transform: uppercase;
+	padding-bottom: 0;
+	margin-bottom: 10px;
+}
+
+h4 {
+	color: #de7499;
+	text-transform: uppercase;
+	padding-bottom: 0;
+	margin-bottom: 10px;
+}
+
+
+/*Formulário*/
+
+input	{
+	color: #de7499;
+	width: 225px;
+	height: 13px;
+	border: none;
+	font-size: 1em;
+	margin: 4px 4px 12px 4px;
+	padding: 5px; 
+}
+
+input#titulo {
+	width: 270px;
+	margin: 4px 4px 10px 0;
+	padding: 5px; 
+}
+
+textarea {
+	width: 270px;
+	height: 200px;
+	margin: 4px 4px 10px 0;
+	padding: 5px; 
+	border: none;
+}
+
+input#send {
+	width: 70px;
+	height: auto;
+}
+
+fieldset {
+	border: none;
+	color: #000080;
+	text-transform: uppercase;
+	
+}
+
+/*Rodapé*/
+
+footer {
+	background-color: #A2B5CD;
+	padding: 20px 0 30px 0;
+	text-align: center;
+	color: #000080;
+	text-transform: uppercase;
+}
